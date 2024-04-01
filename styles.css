@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'redrose', sans-serif;
+    
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.menu{
+    margin-top: 1.5em;
+}
+
+.navmenu{
+    text-decoration: none;
+    margin: 1em;
+    color: black;
+    font-weight: bold;
+}
+.btnSVPs{
+    background-color:#EDD28C;
+    border:none;
+    padding:1em;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    font-weight: bolder;
+}
