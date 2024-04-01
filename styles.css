@@ -28,3 +28,37 @@
     margin-top: 0.5em;
     font-weight: bolder;
 }
+.herosct{
+    background-color: #CACACA;
+    margin: 2em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.ttr{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    margin: 2em;
+}
+
+.ttr2{
+    color:#EDD28C;
+    
+}
+.sousttr{
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.btnSVPs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
