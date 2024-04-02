@@ -103,7 +103,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
+.vlucntnu #ctn2{
+    flex-wrap: wrap-reverse;  
+}
+
 .vlutxt{
     font-size: xx-large;
     font-weight:500;
