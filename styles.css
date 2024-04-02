@@ -31,7 +31,7 @@
 .herosct{
     background-color: #CACACA;
     margin: 2em;
-    border-radius: 2em;
+    border-spacing: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -80,8 +80,9 @@
     text-align: center;
 }
 .prqimg{
-    margin: 3em;
-    border-radius: 3em;
+    
+    margin: 2em;
+    border-spacing: 2em;
 }
 .avtg {
     display: flex;
@@ -245,7 +246,7 @@ margin-right: 1em;
     border:none;
 }
 #ftr{
-    background-color: #edd596;
+    background-color: #edd28c;
     color: white;
     display: flex;
     justify-content: center;
@@ -256,6 +257,11 @@ margin-right: 1em;
     width: auto;
   font-size: 10px;
   text-align: center;
+  
+  border-top: solid;
+  border-top-style: double;
+  
+  
 
 
 }
