@@ -1,7 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-    font-family: 'red rose', sans-serif;
+    font-family: 'roboto', sans-serif;
     
 }
 .navbar {
@@ -115,8 +115,8 @@
 }
 .partner{
     display: flex;
-    justify-content: space-between;
-    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .offre{
     display: flex;
