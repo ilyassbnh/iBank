@@ -115,16 +115,8 @@
 }
 .partner{
     display: flex;
-    justify-content: center;
-    display: -ms-inline-grid;
-   
-  
-   grid-template-columns: 15% 15% 15% 15% ;
-   
-   
-   
-    object-fit: cover;
-   /* text-align: center;*/
+    justify-content: space-between;
+    margin:auto;
 }
 .offre{
     display: flex;
