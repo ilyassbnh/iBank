@@ -120,7 +120,7 @@
 }
 .offre{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .offrcrctr{
     background-color: #B9B9B9;
@@ -160,20 +160,17 @@
 }
 .offre{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.offr1{
-    padding: 2em;
 
-}
 .offr2{
     background-color: #EDD28C;
-    padding: 2em;
+   
 }
 .offr3{
     background-color: #333333;
     color: white;
-    padding: 2em;
+   
 }
 .offrcrctr{
     padding: 2em;
