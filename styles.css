@@ -122,7 +122,7 @@ nav ul {
 .herosct {
     background-color: #CACACA;
     margin: 2em;
-    border-spacing: 2em;
+    border-spacing: 100em;
     display: flex;
     flex-direction: column;
 
@@ -232,6 +232,7 @@ nav ul {
 .vlutxt {
     font-size: x-large;
     font-weight: 400;
+    padding: 2em;
 
 }
 
@@ -258,10 +259,10 @@ nav ul {
 
 .list {
     margin: 1em;
-    list-style-type: none;f
+    list-style-type: none;
 }
 
-#ttrcrctr {
+.ttrcrctr {
     margin-bottom: 5.7em;
 }
 
@@ -367,26 +368,31 @@ nav ul {
 }
 
 .jointxt {
-    color: #FFA559;
+    margin-top: 1em;
+    color: #0b010c;
 }
 
 .inputs {
     padding: 1em;
     border-radius: 1em;
-    border-color: #FFA559;
-    color: #FFA559;
+    border: 2px solid;
+   border-color: #EDD28C;
+
     padding-right: 7em;
+}
+input::placeholder{
+    color: #EDD28C;
 }
 
 #btnjoinus {
-    background-color: #edd28c;
+    background-color: #EDD28C;
     color: white;
     font-weight: bold;
-    margin: 1em;
+    margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 8em;
+    padding-right: 9em;
     border-radius: 1em;
     border: none;
 
