@@ -200,17 +200,18 @@ list-style: none;
 }
 .offre{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .offrcrctr{
     background-color: #B9B9B9;
+    padding: auto;
 }
 .list{
     margin: 1em;
     list-style-type: none;
 }
 #ttrcrctr{
-    margin-bottom: 3.7em;
+    margin-bottom: 5.7em;
 }
 .packname{
     font-weight: 500;
