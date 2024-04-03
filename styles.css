@@ -105,13 +105,17 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.vlucntnu #ctn2{
-    flex-wrap: wrap-reverse;  
+.vlucntn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .vlutxt{
-    font-size: xx-large;
-    font-weight:500;
+    font-size: x-large;
+    font-weight:400;
     
 }
 .value .btnSVPs{
