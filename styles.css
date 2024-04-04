@@ -64,18 +64,7 @@ nav ul {
     align-items: flex-end;
 }
 
-@media screen and (max-width: 1030px) {
-    
-    .nav-links {
-        display: none;
-       
-       
-        
-    }}
-    @media screen and (min-width:800px) {
-        .html{margin: 2em 2em;}
-        
-    }
+
 
 
 
@@ -449,7 +438,63 @@ input::placeholder{
     border-top: solid;
     border-top-style: double;
 
-
-
-
 }
+.cara{
+    background-color:#E45826;
+    height: 100%;
+    width: 100%;
+}
+.pricing{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cara-element{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 25px;
+}
+.card-element h6{
+    margin: 10px;
+}
+hr{
+    width: 100%;
+}
+/* For phones (portrait and landscape) */
+@media(max-width: 768px) {
+    /* Styles for phones */
+  }
+  
+  /* For tablets (portrait and landscape) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px){
+    /* Styles for tablets */
+    .pricing{
+        flex-direction: column;
+    }
+    .cara-element{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  }
+  
+  /* For PCs */
+  @media(min-width: 1025px) {
+    /* Styles for PCs */
+  }
+  @media only screen and (max-width: 360px)  {
+    /* Styles for PCs */
+    .pricing{
+        flex-direction: column;
+    }
+    .cara-element{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+  }
+
+  
