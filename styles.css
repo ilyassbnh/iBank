@@ -123,8 +123,9 @@ nav ul {
     background-color: #CACACA;
     margin: 2em;
     border-spacing: 100em;
-    display: flex;
+    display: fleX;
     flex-direction: column;
+    border-radius: 2em;
 
 
 }
@@ -179,15 +180,17 @@ nav ul {
 .prqttr {
     display: flex;
     justify-content: center;
-    font-size: xxx-large;
+    font-size: auto;
+    
 }
 
 .prqtxt {
     display: flex;
     justify-content: center;
-    margin: 2em;
-    font-size: xx-large;
+    margin: 1em;
+    font-size: 29px;
     text-align: center;
+    line-height: 0.5px;
 }
 
 .prqimg {
@@ -232,7 +235,6 @@ nav ul {
 .vlutxt {
     font-size: x-large;
     font-weight: 400;
-    padding: 2em;
 
 }
 
