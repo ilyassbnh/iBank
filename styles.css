@@ -446,11 +446,12 @@ input::placeholder{
     background-color:#414141;
 }
 .pricing{
-    height: 100%;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+ /*align-items: flex-end;*/
+    
     width: 100%;  
 }
 .cara-element{
