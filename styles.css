@@ -8,9 +8,9 @@
 
 }
 
-.html {
+/* .html {
     font-size: 62.5%;
-}
+} */
 
 .h1 {
     font-size: 2.6em;
@@ -440,9 +440,26 @@ input::placeholder{
 
 }
 .cara{
-    background-color:#E45826;
+    background-color:#29e426;
     height: 100%;
     width: 100%;
+    background-size: contain;
+}
+.cara1{
+     background-color:#4926e4;
+    height: 100%;
+    width: 100%;
+
+}
+.cara2{
+    background-color:#e4d726;
+   height: 100%;
+   width: 100%;
+}
+.cara3{
+    background-color:#e426cb;
+   height: 100%;
+   width: 100%;
 }
 .pricing{
     height: 100%;
@@ -502,6 +519,13 @@ hr{
         width: 30%; /* Each package takes 30% of the container width */
         margin-bottom: 0; /* Remove margin between packages */
     }
+}
+@media all and (max-width :500px) {
+ .pricing{
+ display:inline;
+ }
+    
+    
 }
 
 
