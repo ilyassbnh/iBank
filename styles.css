@@ -1,7 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/red-rose');
+
 * {
     padding: 0%;
     margin: 0%;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Red Rose', sans-serif;
     box-sizing: border-box;
 
 }
@@ -62,13 +64,20 @@ nav ul {
     align-items: flex-end;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1030px) {
     
     .nav-links {
         display: none;
+       
+       
+        
+    }}
+    @media screen and (min-width:800px) {
+        .html{margin: 2em 2em;}
+        
     }
 
-}
+
 
 
 .navbar {
@@ -107,6 +116,7 @@ nav ul {
 
 .creditCard {
     margin-top: 3em;
+    
 
 }
 
@@ -126,8 +136,7 @@ nav ul {
     display: fleX;
     flex-direction: column;
     border-radius: 2em;
-
-
+    
 }
 
 .ttr {
@@ -180,17 +189,29 @@ nav ul {
 .prqttr {
     display: flex;
     justify-content: center;
-    font-size: auto;
+    font-size:43px ;
+    font-style: normal;
+    text-align: center;
+    
     
 }
 
-.prqtxt {
+.prqtxt1{
     display: flex;
-    justify-content: center;
-    margin: 1em;
-    font-size: 29px;
+    justify-content: left;
+text-indent: 25pt;
+text-align: center;
+    font-size: 16pt;
+
+}.prqtxt2{
+    display: flex;
+    justify-content: left;
     text-align: center;
-    line-height: 0.5px;
+text-indent: 50pt;
+
+    /*margin: 1em;*/
+    font-size: 17pt;
+    
 }
 
 .prqimg {
@@ -210,6 +231,7 @@ nav ul {
     margin: 1em;
     font-size: xxx-large;
     text-align: center;
+    
 }
 
 .value {
@@ -287,15 +309,25 @@ nav ul {
 .scndpart {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+   
 }
 
 .btnchois {
     background-color: #B9B9B9;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 1em;
     border-radius: 1em;
     border: none;
+  /*height: 30px;
+  width: 50px;*/
+  
+  padding: 1em;
+  margin-bottom: 10em;
+  width: 11em;
+  height: 3.5em;
+
+
+
 
 }
 
