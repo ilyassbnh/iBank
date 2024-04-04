@@ -465,36 +465,46 @@ input::placeholder{
 hr{
     width: 100%;
 }
-/* For phones (portrait and landscape) */
-@media(max-width: 768px) {
+/* For phones (up to 768px) */
+@media only screen and (max-width: 768px) {
     /* Styles for phones */
-  }
-  
-  /* For tablets (portrait and landscape) */
-  @media only screen and (min-width: 769px) and (max-width: 1024px){
+    .pricing {
+        flex-direction: column;
+    }
+    .cara {
+        margin-bottom: 20px; /* Add some space between packages */
+    }
+    .cara-element {
+        text-align: center; /* Center align text */
+    }
+}
+
+/* For tablets (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     /* Styles for tablets */
-    .pricing{
+    .pricing {
         flex-direction: column;
     }
-    .cara-element{
+    .cara {
+        width: 100%; /* Each package takes full width */
+        margin-bottom: 20px; /* Add some space between packages */
+    }
+}
+
+/* For PCs (1025px and above) */
+@media only screen and (min-width: 1025px) {
+    /* Styles for PCs */
+    .pricing {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around; /* Center packages horizontally */
     }
-  }
+    .cara {
+        width: 30%; /* Each package takes 30% of the container width */
+        margin-bottom: 0; /* Remove margin between packages */
+    }
+}
+
+
   
-  /* For PCs */
-  @media(min-width: 1025px) {
-    /* Styles for PCs */
-  }
-  @media only screen and (max-width: 360px)  {
-    /* Styles for PCs */
-    .pricing{
-        flex-direction: column;
-    }
-    .cara-element{
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-  }
 
   
