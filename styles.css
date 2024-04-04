@@ -417,7 +417,7 @@ input::placeholder{
 
 }
 
-#footer {
+.footer1 {
     background-color: #edd28c;
     color: white;
     display: flex;
@@ -434,6 +434,7 @@ input::placeholder{
 }
 .cara{
     background-color:#B9B9B9;
+
 }
 .cara1{
      background-color:white;
@@ -450,7 +451,7 @@ input::placeholder{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 100%;  
 }
 .cara-element{
     display: flex;
