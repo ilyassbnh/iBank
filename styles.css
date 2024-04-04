@@ -309,14 +309,9 @@ text-indent: 50pt;
     border: none;
   /*height: 30px;
   width: 50px;*/
-  
   padding: 1em;
-  margin-bottom: 10em;
   width: 11em;
   height: 3.5em;
-
-
-
 
 }
 
@@ -422,7 +417,7 @@ input::placeholder{
 
 }
 
-#ftr {
+#footer {
     background-color: #edd28c;
     color: white;
     display: flex;
@@ -434,38 +429,26 @@ input::placeholder{
     width: auto;
     font-size: 10px;
     text-align: center;
-
     border-top: solid;
     border-top-style: double;
-
 }
 .cara{
-    background-color:#29e426;
-    height: 100%;
-    width: 100%;
-    background-size: contain;
+    background-color:#B9B9B9;
 }
 .cara1{
-     background-color:#4926e4;
-    height: 100%;
-    width: 100%;
-
+     background-color:white;
 }
 .cara2{
-    background-color:#e4d726;
-   height: 100%;
-   width: 100%;
+    background-color:#EDD28C;
 }
 .cara3{
-    background-color:#e426cb;
-   height: 100%;
-   width: 100%;
+    background-color:#414141;
 }
 .pricing{
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
@@ -474,7 +457,7 @@ input::placeholder{
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    margin: 25px;
+    margin: 1em;
 }
 .card-element h6{
     margin: 10px;
@@ -503,7 +486,6 @@ hr{
         flex-direction: column;
     }
     .cara {
-        width: 100%; /* Each package takes full width */
         margin-bottom: 20px; /* Add some space between packages */
     }
 }
@@ -513,20 +495,15 @@ hr{
     /* Styles for PCs */
     .pricing {
         flex-direction: row;
-        justify-content: space-around; /* Center packages horizontally */
+        justify-content: center; /* Center packages horizontally */
     }
     .cara {
-        width: 30%; /* Each package takes 30% of the container width */
+        /* Each package takes 30% of the container width */
         margin-bottom: 0; /* Remove margin between packages */
+       
     }
 }
-@media all and (max-width :500px) {
- .pricing{
- display:inline;
- }
-    
-    
-}
+
 
 
   
