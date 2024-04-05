@@ -1,11 +1,10 @@
-@import url('http://fonts.cdnfonts.com/css/red-rose');
+@import url("http://fonts.cdnfonts.com/css/red-rose");
 
 * {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Red Rose', sans-serif;
-    box-sizing: border-box;
-
+  padding: 0%;
+  margin: 0%;
+  font-family: "Red Rose", sans-serif;
+  box-sizing: border-box;
 }
 
 /* .html {
@@ -13,499 +12,520 @@
 } */
 
 .h1 {
-    font-size: 2.6em;
-
+  font-size: 2.6em;
 }
 
 .h2 {
-    font-size: 4.6em;
+  font-size: 4.6em;
 }
 
 .h3 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .h4,
 h5 {
-    font-size: 2.8em;
+  font-size: 2.8em;
 }
 
 .li {
-    font-size: 2em;
-
+  font-size: 2em;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 1.5em;
 }
 
-nav {
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    width: auto;
-    padding: 2rem;
-    margin: auto;
+nav ul li {
+  font-size: x-small;
 }
 
-nav ul {
-    display: flex;
-    flex: 1 1 60rem;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
+.wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-grow: 1;
 }
-
-.logo1 {
-    flex: 1 2 30rem;
-    min-height: 10vh;
-    align-items: flex-end;
-}
-
-
-
-
-
 
 .navbar {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  gap: 5em;
+  justify-content: center;
+  padding: 0 3rem;
+}
+.nav-btn {
+  font-size: x-small;
+}
+
+.toggleBtn {
+  display: none;
+  cursor: pointer;
+}
+.logo-holder {
+  width: 130px;
+}
+.logo-holder img {
+  width: 100%;
+}
+@media only screen and (max-width: 1100px) {
+  .navbar {
+    gap: 3em;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .navbar {
+    gap: 1.5em;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .navbar {
+    gap: 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    font-size: x-small;
+    text-align: center;
+  }
+  .nav-btn {
+    font-size: x-small;
+  }
+
+  .logo-holder {
+    width: 100px;
+  }
+  .logo-holder img {
+    width: 100%;
+  }
+
+  .logo-wrapper {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 3em;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper {
+    height: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .toggleBtn {
+    display: block;
+  }
 }
 
 .menu {
-    margin-top: 3em;
-}
-
-.navmenu {
-    text-decoration: none;
-    margin: 1em;
-    color: black;
-    font-weight: bold;
+  margin-top: 3em;
 }
 
 .btnSVPs {
-    background-color: #EDD28C;
-    border: none;
-    padding: 1em;
-    border-radius: 1em;
-    margin-bottom: 20em;
-
-    font-weight: bolder;
-    width: 17em;
-    height: 3.5em;
-
-
-
-
+  background-color: #edd28c;
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  font-weight: bolder;
+  width: 17em;
+  height: 3.5em;
 }
 
 .creditCard {
-    margin-top: 3em;
-    
-
+  margin-top: 3em;
 }
 
-.btnSVPs1 {
-    background-color: #EDD28C;
-    border: none;
-    padding: 1em;
-    border-radius: 1em;
-
-    font-weight: bolder;
+.nav-btn {
+  background-color: #edd28c;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .herosct {
-    background-color: #CACACA;
-    margin: 2em;
-    border-spacing: 100em;
-    display: fleX;
-    flex-direction: column;
-    border-radius: 2em;
-    
+  background-color: #cacaca;
+  margin: 2em;
+  border-spacing: 100em;
+  display: fleX;
+  flex-direction: column;
+  border-radius: 2em;
 }
 
 .ttr {
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-top: 2.5em;
-    font-size: 20px;
-    margin-block-end: 1.1em;
-    text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 2.5em;
+  font-size: 20px;
+  margin-block-end: 1.1em;
+  text-align: center;
 }
 
 .ttr2 {
-    color: #EDD28C;
-    text-align: center;
+  color: #edd28c;
+  text-align: center;
 }
 
 .sousttr {
-    color: white;
-    font-weight: lighter;
-    display: flex;
-    justify-content: center;
-    margin-block-end: 1.8em;
-    text-align: center;
+  color: white;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  margin-block-end: 1.8em;
+  text-align: center;
 }
 
 .btnSVPs2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .btnSVPs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .scndsct {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .prqttr {
-    display: flex;
-    justify-content: center;
-    font-size:43px ;
-    font-style: normal;
-    text-align: center;
-    
-    
+  display: flex;
+  justify-content: center;
+  font-size: 43px;
+  font-style: normal;
+  text-align: center;
 }
 
-.prqtxt1{
-    display: flex;
-    justify-content: left;
-text-indent: 25pt;
-text-align: center;
-    font-size: 16pt;
+.prqtxt1 {
+  display: flex;
+  justify-content: left;
+  text-indent: 25pt;
+  text-align: center;
+  font-size: 16pt;
+}
+.prqtxt2 {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  text-indent: 50pt;
 
-}.prqtxt2{
-    display: flex;
-    justify-content: left;
-    text-align: center;
-text-indent: 50pt;
-
-    /*margin: 1em;*/
-    font-size: 17pt;
-    
+  /*margin: 1em;*/
+  font-size: 17pt;
 }
 
 .prqimg {
-
-    margin: 2em;
-    border-spacing: 2em;
+  margin: 2em;
+  border-spacing: 2em;
 }
 
 .avtg {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
 }
 
 .ttrs {
-    margin: 1em;
-    font-size: xxx-large;
-    text-align: center;
-    
+  margin: 1em;
+  font-size: xxx-large;
+  text-align: center;
 }
 
 .value {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .vlucntnu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .vlucntn {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .vlutxt {
-    font-size: x-large;
-    font-weight: 400;
-
+  font-size: x-large;
+  font-weight: 400;
 }
 
 .value .btnSVPs {
-    padding-left: 4em;
-    padding-right: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .partner {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .offre {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .offrcrctr {
-    background-color: #B9B9B9;
-    padding: auto;
+  background-color: #b9b9b9;
+  padding: auto;
 }
 
 .list {
-    margin: 1em;
-    list-style-type: none;
+  margin: 1em;
+  list-style-type: none;
 }
 
 .ttrcrctr {
-    margin-bottom: 5.7em;
+  margin-bottom: 5.7em;
 }
 
 .packname {
-    font-weight: 500;
-    font-size: xx-large;
+  font-weight: 500;
+  font-size: xx-large;
 }
 
 .packprice {
-    color: #E45826;
-    font-weight: 500;
-    font-size: larger;
+  color: #e45826;
+  font-weight: 500;
+  font-size: larger;
 }
 
 .topart {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .scndpart {
-    display: flex;
-    justify-content: center;
-   
+  display: flex;
+  justify-content: center;
 }
 
 .btnchois {
-    background-color: #B9B9B9;
-    font-weight: bolder;
-    margin: 1em;
-    border-radius: 1em;
-    border: none;
+  background-color: #b9b9b9;
+  font-weight: bolder;
+  margin: 1em;
+  border-radius: 1em;
+  border: none;
   /*height: 30px;
   width: 50px;*/
   padding: 1em;
   width: 11em;
   height: 3.5em;
-
 }
 
 .offre {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .offr2 {
-    background-color: #EDD28C;
-
+  background-color: #edd28c;
 }
 
 .offr3 {
-    background-color: #333333;
-    color: white;
-
+  background-color: #333333;
+  color: white;
 }
 
 .offrcrctr {
-    padding: 2em;
+  padding: 2em;
 }
 
 .offrtxt {
-    margin: 1em;
+  margin: 1em;
 }
 
 .techtop {
-    background-color: #b9b9b9;
-    margin: 2em;
-    border-radius: 2em;
-    padding-bottom: 1em;
+  background-color: #b9b9b9;
+  margin: 2em;
+  border-radius: 2em;
+  padding-bottom: 1em;
 }
 
 .techlogo {
-    margin: 1em;
+  margin: 1em;
 }
 
 .techttr {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .techtxt {
-    margin: 2em;
+  margin: 2em;
 }
 
 .techbuttom {
-    display: flex;
-    justify-content: space-between;
-    margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
 }
 
 .techleft {
-    background-color: #d4d7da;
-    border-radius: 2em;
-    margin-right: 1em;
+  background-color: #d4d7da;
+  border-radius: 2em;
+  margin-right: 1em;
 }
 
 .techright {
-    background-color: #f3f3f3;
-    border-radius: 2em;
-    margin-left: 1em;
+  background-color: #f3f3f3;
+  border-radius: 2em;
+  margin-left: 1em;
 }
 
 .joinus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .jointxt {
-    margin-top: 1em;
-    color: #0b010c;
+  margin-top: 1em;
+  color: #0b010c;
 }
 
 .inputs {
-    padding: 1em;
-    border-radius: 1em;
-    border: 2px solid;
-   border-color: #EDD28C;
+  padding: 1em;
+  border-radius: 1em;
+  border: 2px solid;
+  border-color: #edd28c;
 
-    padding-right: 7em;
+  padding-right: 7em;
 }
-input::placeholder{
-    color: #EDD28C;
+input::placeholder {
+  color: #edd28c;
 }
 
 #btnjoinus {
-    background-color: #EDD28C;
-    color: white;
-    font-weight: bold;
-    margin-top: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 8em;
-    padding-right: 9em;
-    border-radius: 1em;
-    border: none;
-
-
+  background-color: #edd28c;
+  color: white;
+  font-weight: bold;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 8em;
+  padding-right: 9em;
+  border-radius: 1em;
+  border: none;
 }
 
-#footer {
-    background-color: #edd28c;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
-    object-fit: cover;
-    width: auto;
-    font-size: 10px;
-    text-align: center;
-    border-top: solid;
-    border-top-style: double;
+.footer1 {
+  background-color: #edd28c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  object-fit: cover;
+  width: auto;
+  font-size: 10px;
+  text-align: center;
+  border-top: solid;
+  border-top-style: double;
 }
-.cara{
-    background-color:#B9B9B9;
+.cara {
+  background-color: #b9b9b9;
 }
-.cara1{
-     background-color:white;
+.cara1 {
+  background-color: white;
 }
-.cara2{
-    background-color:#EDD28C;
+.cara2 {
+  background-color: #edd28c;
 }
-.cara3{
-    background-color:#414141;
+.cara3 {
+  background-color: #414141;
 }
-.pricing{
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+.pricing {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
-.cara-element{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 1em;
+.cara-element {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 1em;
 }
-.card-element h6{
-    margin: 10px;
+.card-element h6 {
+  margin: 10px;
 }
-hr{
-    width: 100%;
+hr {
+  width: 100%;
 }
 /* For phones (up to 768px) */
 @media only screen and (max-width: 768px) {
-    /* Styles for phones */
-    .pricing {
-        flex-direction: column;
-    }
-    .cara {
-        margin-bottom: 20px; /* Add some space between packages */
-    }
-    .cara-element {
-        text-align: center; /* Center align text */
-    }
+  /* Styles for phones */
+  .pricing {
+    flex-direction: column;
+  }
+  .cara {
+    margin-bottom: 20px; /* Add some space between packages */
+  }
+  .cara-element {
+    text-align: center; /* Center align text */
+  }
 }
 
 /* For tablets (769px to 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for tablets */
-    .pricing {
-        flex-direction: column;
-    }
-    .cara {
-        margin-bottom: 20px; /* Add some space between packages */
-    }
+  /* Styles for tablets */
+  .pricing {
+    flex-direction: column;
+  }
+  .cara {
+    margin-bottom: 20px; /* Add some space between packages */
+  }
 }
 
 /* For PCs (1025px and above) */
 @media only screen and (min-width: 1025px) {
-    /* Styles for PCs */
-    .pricing {
-        flex-direction: row;
-        justify-content: center; /* Center packages horizontally */
-    }
-    .cara {
-        /* Each package takes 30% of the container width */
-        margin-bottom: 0; /* Remove margin between packages */
-       
-    }
+  /* Styles for PCs */
+  .pricing {
+    flex-direction: row;
+    justify-content: center; /* Center packages horizontally */
+  }
+  .cara {
+    /* Each package takes 30% of the container width */
+    margin-bottom: 0; /* Remove margin between packages */
+  }
 }
-
-
-
-  
-
-  

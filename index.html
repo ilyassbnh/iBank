@@ -1,102 +1,166 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="IBANK">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/red-rose">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="IBANK" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/red-rose" />
+    <script src="./script.js" defer ></script>
 
     <title>IBANK</title>
-</head>
+  </head>
 
-<header>
-    <nav>
-        <ul class="navbare">
-            <li><img src="images/icon.png" alt="logo image" class="logo1"> </li>
-            <li class="nav-links"><a href="http://#">Pourquoi IBANK?</a></li>
-            <li class="nav-links"><a href="http://#">Avantages</a></li>
-            <li class="nav-links"><a href="http://#">No valeurs</a></li>
-            <li class="nav-links"><a href="http://#">Partenaires</a></li>
-            <li class="nav-links"><a href="http://#">Cartes et paiements</a></li>
-            <li> <button class="btnSVPs1">En Savoir Plus</button></li>
+  <header>
+    <nav class="nav">
+      <div class="logo-wrapper">
+        <div class="logo-holder">
+          <img src="images/icon.png" alt="logo image" />
+        </div>
+        <div id="toggle-menu" class="toggleBtn">
+          <i
+            class="fa-solid fa-bars"
+            style="color: #e1a66f"
+            id="menuberger"
+          ></i>
+        </div>
+      </div>
+      <div id="nav-wrapper" class="wrapper">
+        <ul class="navbar">
+          <li class="nav-links"><a href="http://#">Pourquoi IBANK</a></li>
+          <li class="nav-links"><a href="http://#">Avantages</a></li>
+          <li class="nav-links"><a href="http://#">No valeurs</a></li>
+          <li class="nav-links"><a href="http://#">Partenaires</a></li>
+          <li class="nav-links"><a href="http://#">Cartes et paiements</a></li>
         </ul>
-        <i class="fa-solid fa-bars" style="color: #e1a66f;" id="menuberger"></i>
+        <a><button class="nav-btn">En Savoir Plus</button></a>
+      </div>
     </nav>
-</header>
+  </header>
 
-<body>
+  <body>
     <!-- Body content goes here -->
     <div class="herosct">
-        <span class="ttr">
-            <h1>ENJOY <span class="ttr2">OUR BANKING </span>SYSTEM</h1>
-        </span>
-        <h3 class="sousttr">&emsp;votre argent est notre argent a préserver et a protéger&emsp;</h3>
-        <button class="btnSVPs" id="sencondbutton">En Savoir Plus</button>
-        <img src="images/credit cards 3d.png" alt="credit card" class="creditCard">
+      <span class="ttr">
+        <h1>ENJOY <span class="ttr2">OUR BANKING </span>SYSTEM</h1>
+      </span>
+      <h3 class="sousttr">
+        &emsp;votre argent est notre argent a préserver et a protéger&emsp;
+      </h3>
+      <button class="btnSVPs" id="sencondbutton">En Savoir Plus</button>
+      <img
+        src="images/credit cards 3d.png"
+        alt="credit card"
+        class="creditCard"
+      />
     </div>
     <div class="scndsct">
-        <h1 class="prqttr">
-            Pourquoi devenir client IBANK?
-        </h1><br>
+      <h1 class="prqttr">Pourquoi devenir client IBANK?</h1>
+      <br />
 
-        <p class="prqtxt1">
-            notre banque offre une sécurité dinanciére fiable et des mesures de protection avancées;
-        </p>&emsp;<p class="prqtxt2">notre équipe devouée assure un service clientéle exceptionnel et personnalisé .
-        </p>
+      <p class="prqtxt1">
+        notre banque offre une sécurité dinanciére fiable et des mesures de
+        protection avancées;
+      </p>
+      &emsp;
+      <p class="prqtxt2">
+        notre équipe devouée assure un service clientéle exceptionnel et
+        personnalisé .
+      </p>
 
-        <img src="images/image PQ.png" alt="3 images" class="prqimg">
+      <img src="images/image PQ.png" alt="3 images" class="prqimg" />
     </div>
     <h1 class="ttrs">Nos Avantages</h1>
     <div class="avtg">
-        <div class="leftckt">
-            <img src="images/Side view of black wallet.png" alt="wallet">
-            <h2>Cartes virtuel et physiques</h2>
-            <p>La possibilité d'utiliser des cartes virtuelles et <br>physiques pour effectuer des paiements sans
-                <br>contact, en ligne ou en magasin.
-            </p>
-        </div>
-        <div class="cntrtckt">
-            <img src="images/yellow security shield button.png" alt="wallet" class="cntrtcktimg">
-            <h2>Processus simplifiés</h2>
-            <p>Des protocoles de sécurité robustes <br>font de IBANK la solution idéale et <br> intuitive.</p>
-        </div>
-        <div class="rigttckt">
-            <img src="images/E-wallet in a phone with bank card, stack of coins and leather wallet.png" alt="wallet"
-                class="righttcktimg">
-            <h2>Transferts immédiats</h2>
-            <p>Transferts instantanés dans tous <br> les pays du monde . </p>
-        </div>
+      <div class="leftckt">
+        <img src="images/Side view of black wallet.png" alt="wallet" />
+        <h2>Cartes virtuel et physiques</h2>
+        <p>
+          La possibilité d'utiliser des cartes virtuelles et <br />physiques
+          pour effectuer des paiements sans <br />contact, en ligne ou en
+          magasin.
+        </p>
+      </div>
+      <div class="cntrtckt">
+        <img
+          src="images/yellow security shield button.png"
+          alt="wallet"
+          class="cntrtcktimg"
+        />
+        <h2>Processus simplifiés</h2>
+        <p>
+          Des protocoles de sécurité robustes <br />font de IBANK la solution
+          idéale et <br />
+          intuitive.
+        </p>
+      </div>
+      <div class="rigttckt">
+        <img
+          src="images/E-wallet in a phone with bank card, stack of coins and leather wallet.png"
+          alt="wallet"
+          class="righttcktimg"
+        />
+        <h2>Transferts immédiats</h2>
+        <p>
+          Transferts instantanés dans tous <br />
+          les pays du monde .
+        </p>
+      </div>
     </div>
     <h1 class="ttrs">Nos valeurs</h1>
     <div class="value">
-        <div class="vlucntnu">
-            <p class="vlutxt">Avec notre banque IBANK, vous pourrez placer <br> votre argent sans déductions usuraires
-                et sans <br> intérêts, où vous pourrez également consulter votre <br>compte bancaire par téléphone ou
-                par ordinateur. </p>
-            <img src="images/young man in formal wear sitting on the floor with phone.png" alt="young man">
-        </div>
-        <div class="vlucntn">
-            <p class="vlutxt">Nos agences bancaires sont situées dans <br> tous les pays africains et dans la plupart
-                des <br>pays du monde, ce qui signifie que vous <br>pouvez suivre votre compte bancaire dans <br>
-                n’importe quel pays et ville du monde. </p>
-            <img src="images/man sitting with laptop and working.png" alt="young man">
-        </div>
-        <div class="vlucntnu">
-            <p class="vlutxt">Avec IBANK vous pouvez Commandez en ligne facilement <br> et en peu de temps depuis tous
-                les pays du monde avec <br>une garantie de protection totale de vos données <br>bancaires </p>
-            <img src="images/young woman shopping online.png" alt="young man">
-        </div>
-        <button class="btnSVPs">En Savoir Plus</button>
+      <div class="vlucntnu">
+        <p class="vlutxt">
+          Avec notre banque IBANK, vous pourrez placer <br />
+          votre argent sans déductions usuraires et sans <br />
+          intérêts, où vous pourrez également consulter votre <br />compte
+          bancaire par téléphone ou par ordinateur.
+        </p>
+        <img
+          src="images/young man in formal wear sitting on the floor with phone.png"
+          alt="young man"
+        />
+      </div>
+      <div class="vlucntn">
+        <p class="vlutxt">
+          Nos agences bancaires sont situées dans <br />
+          tous les pays africains et dans la plupart des <br />pays du monde, ce
+          qui signifie que vous <br />pouvez suivre votre compte bancaire dans
+          <br />
+          n’importe quel pays et ville du monde.
+        </p>
+        <img
+          src="images/man sitting with laptop and working.png"
+          alt="young man"
+        />
+      </div>
+      <div class="vlucntnu">
+        <p class="vlutxt">
+          Avec IBANK vous pouvez Commandez en ligne facilement <br />
+          et en peu de temps depuis tous les pays du monde avec <br />une
+          garantie de protection totale de vos données <br />bancaires
+        </p>
+        <img src="images/young woman shopping online.png" alt="young man" />
+      </div>
+      <button class="btnSVPs">En Savoir Plus</button>
     </div>
     <h1 class="ttrs">Nos Partenaires</h1>
     <div class="partner">
-        <img class="prtnrimg" src="images/logos_mastercard.png" alt="mastercard">
-        <img class="prtnrimg" src="images/logos_paypal.png" alt="paypal">
-        <img class="prtnrimg" src="images/logos_apple-pay.png" alt="apple pay">
-        <img class="prtnrimg" src="images/logos_visaelectron.png" alt="visa">
+      <img
+        class="prtnrimg"
+        src="images/logos_mastercard.png"
+        alt="mastercard"
+      />
+      <img class="prtnrimg" src="images/logos_paypal.png" alt="paypal" />
+      <img class="prtnrimg" src="images/logos_apple-pay.png" alt="apple pay" />
+      <img class="prtnrimg" src="images/logos_visaelectron.png" alt="visa" />
     </div>
     <h1 class="ttrs">Choisissez une carte IBANK selon vos besoins</h1>
     <!-- <div class="offre">
@@ -187,177 +251,197 @@
         </div>
     </div> -->
     <div class="pricing">
-        <div class="cara">
-            <div class="cara-element">
-                <h3 id="ttrcrctr">Caracteristiques</h3>
-            </div>
-            <div class="cara-element">
-                <h6>Service annuels</h6>
-                <h6>Assurance voyage</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>Assurance achats</h6>
-                <h6>Assurance automobile</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>Assistance routiére</h6>
-                <h6>Accés aux salons d'aéroport</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>Des récompenses </h6>
-                <h6>Remises</h6>
-            </div>
+      <div class="cara">
+        <div class="cara-element">
+          <h3 id="ttrcrctr">Caracteristiques</h3>
         </div>
-        <!--pack 1-->
-        <div class="cara1">
-            <div class="cara-element">
-                <h3 id="ttrcrctr">Starter</h3>
-                <h3>Free</h3>
-            </div>
-            <div>
-                <img src="images/whitecreditcard.png" alt="whitecard">
-            </div> 
-            <div class="scndpart">
-                <button class="btnchois">Choisir</button>
-            </div>
-
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>20$</h6>
-                <h6>18$</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>20$</h6>
-                <h6>100$</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>10$</h6>
-            </div>
+        <div class="cara-element">
+          <h6>Service annuels</h6>
+          <h6>Assurance voyage</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>Assurance achats</h6>
+          <h6>Assurance automobile</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>Assistance routiére</h6>
+          <h6>Accés aux salons d'aéroport</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>Des récompenses</h6>
+          <h6>Remises</h6>
+        </div>
+      </div>
+      <!--pack 1-->
+      <div class="cara1">
+        <div class="cara-element">
+          <h3 id="ttrcrctr">Starter</h3>
+          <h3>Free</h3>
+        </div>
+        <div>
+          <img src="images/whitecreditcard.png" alt="whitecard" />
+        </div>
+        <div class="scndpart">
+          <button class="btnchois">Choisir</button>
         </div>
 
-        <!--pack 3-->
-        <div class="cara2">
-            <div class="cara-element">
-                <h3 id="ttrcrctr">lite</h3>
-                <h3>16$/year</h3>
-            </div>
-            <div>
-                <img src="images/goldcreditcard.png" alt="whitecard">
-            </div>
-             <div class="scndpart">
-                <button class="btnchois">Choisir</button>
-            </div>
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+        <div class="cara-element">
+          <h6>20$</h6>
+          <h6>18$</h6>
+        </div>
+        <div class="cara-element">
+          <h6>20$</h6>
+          <h6>100$</h6>
+        </div>
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>10$</h6>
+        </div>
+      </div>
 
-
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>50$</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>10$</h6>
-            </div>
+      <!--pack 3-->
+      <div class="cara2">
+        <div class="cara-element">
+          <h3 id="ttrcrctr">lite</h3>
+          <h3>16$/year</h3>
+        </div>
+        <div>
+          <img src="images/goldcreditcard.png" alt="whitecard" />
+        </div>
+        <div class="scndpart">
+          <button class="btnchois">Choisir</button>
         </div>
 
-        <!--pack 2-->
-        <div class="cara3">
-            <div class="cara-element">
-                <h3 id="ttrcrctr">Pro</h3>
-                <h3> 35$/year</h3>
-            </div>
-            <div >
-                <img src="images/blackcreditcard.png" alt="whitecard">
-            </div>
-             <div class="scndpart">
-                <button class="btnchois">Choisir</button>
-            </div>
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>50$</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>10$</h6>
+        </div>
+      </div>
 
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
-            <hr>
-            <div class="cara-element">
-                <h6>gratuit</h6>
-                <h6>gratuit</h6>
-            </div>
+      <!--pack 2-->
+      <div class="cara3">
+        <div class="cara-element">
+          <h3 id="ttrcrctr">Pro</h3>
+          <h3>35$/year</h3>
+        </div>
+        <div>
+          <img src="images/blackcreditcard.png" alt="whitecard" />
+        </div>
+        <div class="scndpart">
+          <button class="btnchois">Choisir</button>
         </div>
 
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+        <hr />
+        <div class="cara-element">
+          <h6>gratuit</h6>
+          <h6>gratuit</h6>
+        </div>
+      </div>
     </div>
-    <h1 class="ttrs">Nos technologies reposent sur les protocoles les plus robustes</h1>
+    <h1 class="ttrs">
+      Nos technologies reposent sur les protocoles les plus robustes
+    </h1>
     <div class="tech">
-        <div class="techtop">
-            <img src="images/yellow security 1.png" alt="security shield" class="techlogo">
-            <h1 class="techttr">Sécurité</h1>
-            <p class="techtxt">Afin de sécuriser vos données et se prémunir du risque de fraude, IBANK s'est dotée de
-                technologies de pointe pour la vérification biométrique d'identité et de cryptage bout en bout</p>
+      <div class="techtop">
+        <img
+          src="images/yellow security 1.png"
+          alt="security shield"
+          class="techlogo"
+        />
+        <h1 class="techttr">Sécurité</h1>
+        <p class="techtxt">
+          Afin de sécuriser vos données et se prémunir du risque de fraude,
+          IBANK s'est dotée de technologies de pointe pour la vérification
+          biométrique d'identité et de cryptage bout en bout
+        </p>
+      </div>
+      <div class="techbuttom">
+        <div class="techleft">
+          <img
+            src="images/fingerprint.png"
+            alt="security shield"
+            class="techlogo"
+          />
+          <h1 class="techttr">Assistance des comptes</h1>
+          <p class="techtxt">
+            IBANK utilise des solutions testées et approuvées par l'industrie
+            pour protéger votre compte et votre carte (identification
+            multifactorielle, 3DS Secure, etc...)
+          </p>
         </div>
-        <div class="techbuttom">
-            <div class="techleft">
-                <img src="images/fingerprint.png" alt="security shield" class="techlogo">
-                <h1 class="techttr">Assistance des comptes</h1>
-                <p class="techtxt">IBANK utilise des solutions testées et approuvées par l'industrie pour protéger votre
-                    compte et votre carte (identification multifactorielle, 3DS Secure, etc...)</p>
-            </div>
-            <div class="techright">
-                <img src="images/file.png" alt="security shield" class="techlogo">
-                <h1 class="techttr">Protection des données</h1>
-                <p class="techtxt">La protection de vos données personnelles sont une priorité pour IBANK ! Nous
-                    garantissons la sécurité et la confidentialité de vos informations conformément au RGPD</p>
-            </div>
+        <div class="techright">
+          <img src="images/file.png" alt="security shield" class="techlogo" />
+          <h1 class="techttr">Protection des données</h1>
+          <p class="techtxt">
+            La protection de vos données personnelles sont une priorité pour
+            IBANK ! Nous garantissons la sécurité et la confidentialité de vos
+            informations conformément au RGPD
+          </p>
         </div>
+      </div>
     </div>
     <h1 class="ttrs">Rejoignez notre liste d'attente !</h1>
     <div class="joinus">
-        <img src="images/icon.png" alt="logo image" class="logoimg">
-        <ul class="list">
-            <li class="jointxt">Full name <span class="error">*</span></li>
-            <li><input type="text" class="inputs" placeholder="Steven Stallion"></li>
-            <li class="jointxt">Email address <span class="error">*</span></li>
-            <li><input type="text" class="inputs" placeholder="Example@gmail.com"></li>
-            <li class="jointxt">Numbre <span class="error">*</span></li>
-            <li><input type="text" class="inputs" placeholder="0600000000"></li>
-            <li><input type="checkbox"> I agree to the terms and condition</li>
-            <li><button id="btnjoinus">join us</button></li>
-        </ul>
+      <img src="images/icon.png" alt="logo image" class="logoimg" />
+      <ul class="list">
+        <li class="jointxt">Full name <span class="error">*</span></li>
+        <li>
+          <input type="text" class="inputs" placeholder="Steven Stallion" />
+        </li>
+        <li class="jointxt">Email address <span class="error">*</span></li>
+        <li>
+          <input type="text" class="inputs" placeholder="Example@gmail.com" />
+        </li>
+        <li class="jointxt">Numbre <span class="error">*</span></li>
+        <li><input type="text" class="inputs" placeholder="0600000000" /></li>
+        <li><input type="checkbox" /> I agree to the terms and condition</li>
+        <li><button id="btnjoinus">join us</button></li>
+      </ul>
     </div>
-</body>
-<footer id="footer">
+  </body>
+  <footer class="footer1">
     <!-- Footer content goes here -->
-    <h2>Conditions générales d’utilisation<br> Sécurité et confidentialité <br> politique de cookies <br>
-        Copyright © 2024 - i.BANK
+    <h2>
+      Conditions générales d’utilisation<br />
+      Sécurité et confidentialité <br />
+      politique de cookies <br />
+      Copyright © 2024 - i.BANK
     </h2>
-</footer>
-
+  </footer>
 </html>
