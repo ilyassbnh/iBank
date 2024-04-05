@@ -209,7 +209,7 @@ nav ul li {
     border-radius: 2em;
 }
 
-.ttr {
+.titre {
     color: white;
     display: flex;
     justify-content: center;
@@ -220,12 +220,12 @@ nav ul li {
     text-align: center;
 }
 
-.ttr2 {
+.titre2 {
     color: #edd28c;
     text-align: center;
 }
 
-.sousttr {
+.soustitre {
     color: white;
     font-weight: lighter;
     display: flex;
@@ -293,7 +293,7 @@ nav ul li {
     flex-wrap: wrap;
 }
 
-.ttrs {
+.titres {
     margin: 1em;
     font-size: xxx-large;
     text-align: center;
@@ -370,7 +370,7 @@ nav ul li {
     list-style-type: none;
 }
 
-#ttrcrctr {
+#titre-cara {
     padding-right: 1em;
     padding-bottom: 100px;
 }
