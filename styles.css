@@ -247,10 +247,11 @@ nav ul li {
   border-spacing: 2em;
 }
 
-.avtg {
+.avantage {
   display: flex;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: space-between;
+  margin: 3em;
+  flex-wrap: wrap;
 }
 
 .ttrs {
@@ -266,7 +267,7 @@ nav ul li {
 
 .vlucntnu {
   display:flex ;
-  justify-content:right;
+  justify-content:space-around;
   align-items: center;
   flex-wrap: wrap;
   
