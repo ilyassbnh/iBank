@@ -265,7 +265,7 @@ nav ul li {
 }
 
 .vlucntnu {
-  display: flex;
+  display:flex ;
   justify-content:right;
   align-items: center;
   flex-wrap: wrap;
@@ -276,16 +276,16 @@ nav ul li {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  align-items: center
+  align-items: center;
+  flex-wrap: wrap;
 
- 
- 
 }
 
 .val-info{
   font-size: larger;
   font-weight: 400px;
   text-align: justify;
+  
   
 }
 
