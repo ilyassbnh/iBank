@@ -543,6 +543,9 @@ input::placeholder {
 
     =======>>>>>>>d042cccecf855790c45ea5755facbc140410dedd
 }
+.cara .cara-element{
+  margin:0.5em
+}
 
 .cara1 {
     background-color: #F3F3F3;
@@ -578,7 +581,7 @@ input::placeholder {
 .cara-top-part {
     display: flex;
     flex-direction: row;
-    margin: 1em;
+    margin: 1em 1em 0em 1em;
 }
 
 .card-element h6 {
@@ -589,7 +592,9 @@ input::placeholder {
     display: flex;
     color: #E45826;
 }
-
+.pack-card{
+  padding: 0em;
+}
 hr {
     width: 100%;
 }
