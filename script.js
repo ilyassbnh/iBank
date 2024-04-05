@@ -1,3 +1,4 @@
+
 const menuButton = document.getElementById("toggle-menu");
 const navbar = document.getElementById("nav-wrapper");
 let hidden = true;
