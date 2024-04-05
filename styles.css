@@ -445,6 +445,7 @@ nav ul li {
   }
   .techttr{
     font-size:xx-large;
+    display: flex ;
   }
   .techtxt{
     font-size: large;
@@ -472,13 +473,13 @@ nav ul li {
 .techleft {
     background-color: #d4d7da;
     border-radius: 2em;
-    margin-right: 1em;
+    
 }
 
 .techright {
     background-color: #f3f3f3;
     border-radius: 2em;
-    margin-left: 1em;
+    margin-left: 0.5em;
 }
 
 .joinus {
