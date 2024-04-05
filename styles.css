@@ -228,18 +228,19 @@ nav ul li {
 .prqtxt1 {
   display: flex;
   justify-content: left;
-  text-indent: 25pt;
-  text-align: center;
+  text-indent: 20pt;
   font-size: 16pt;
+  text-align: center;
 }
 .prqtxt2 {
   display: flex;
   justify-content: left;
   text-align: center;
-  text-indent: 50pt;
+  text-indent: 20pt;
+
 
   /*margin: 1em;*/
-  font-size: 17pt;
+  font-size: 16pt;
 }
 
 .prqimg {
@@ -270,6 +271,7 @@ nav ul li {
   justify-content:space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin:3em;
   
 }
 
