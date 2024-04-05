@@ -275,12 +275,14 @@ nav ul li {
   
 }
 
+
 .vlucntn {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+ 
 
 }
 
@@ -468,8 +470,10 @@ input::placeholder {
     
    
 }
+
 .cara{
     background-color:#B9B9B9;
+  margin-left: 1em;
     
     
 }
