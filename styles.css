@@ -316,8 +316,8 @@ nav ul li {
   list-style-type: none;
 }
 
-.ttrcrctr {
-  margin-bottom: 5.7em;
+#ttrcrctr{
+  padding-right: 1em;
 }
 
 .packname {
@@ -479,6 +479,7 @@ input::placeholder {
 }
 .cara3 {
   background-color: #414141;
+  color: white;
 }
 .pricing{
     
@@ -496,8 +497,17 @@ input::placeholder {
   flex-direction: column;
   margin: 1em;
 }
+.cara-top-part{
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
 .card-element h6 {
   margin: 10px;
+}
+.pack-price{
+  display: flex;
+  color: #E45826;
 }
 hr {
   width: 100%;
